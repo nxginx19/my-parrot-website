@@ -1,0 +1,149 @@
+/* Entire page */
+body {
+    background-color: honeydew;
+    font-family: Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Paragraphs */
+p {
+    font-size: 16px;
+    color: green;
+    text-align: center;
+}
+
+/* Headings */
+h1, h2, h3 {
+    text-align: center;
+    color: #333;
+}
+
+/* Navigation Bar */
+#Navigation nav {
+    background-color: #45a049;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+#Navigation nav a {
+    text-decoration: #ffffff;
+    color: #F8F8FF;
+    padding: 0 10px;
+    font-weight: bold;
+}
+#Navigation nav a:hover {
+    color: #ff6600;
+}
+
+/* Images */
+img {
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Videos */
+video {
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+}
+
+/* Table styling */
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    width: 60%;
+    background-color: #fff;
+}
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #f2f2f2;
+}
+
+/* Form styling */
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+form input[type="text"],
+form textarea,
+form select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+form input[type="file"] {
+    margin-top: 5px;
+}
+form input[type="submit"] {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* List styling for nested ordered lists */
+ol {
+    padding-left: 20px;
+}
+ol ol {
+    list-style: lower-roman;
+    padding-left: 20px;
+}
+
+/* Style for all buttons
+button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+/* Container for control buttons
+.controls {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+}
+*/

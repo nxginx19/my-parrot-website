@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Parrots</title>
+    <link rel="stylesheet" type ="text/css" href="./styles/styles.css">
+    <script type="text/javascript" src="indexWikiPage.js"></script>
+
+</head>
+<body>
+
+    <div id="Buttons to make changes">
+    <!-- Button to change background colour -->
+    <button onclick="changeBackground()">Click Me</button>
+
+    <!-- Button to Decrease Text Size -->
+    <button onclick="decreaseTextSize()">Decrease Text Size</button>
+
+    <!-- Button to Increase Text Size -->
+    <button onclick="increaseTextSize()">Increase Text Size</button>
+    </div>
+
+    <div id="Navigation">
+        <nav>
+            <a href="#home">Home</a> |
+            <a href="#contents">Contents</a> |
+            <a href="#history">History</a> |
+            <a href="#discussion">Discussion</a> |
+            <a href="#submit-parrot">Submit a Parrot</a> |
+            <a href="#edit">Edit</a>
+        </nav>
+    </div>
+
+    <div id="what-is-a-parrot">
+            <h1>What is a Parrot</h1>
+            <p><i>Parrots: Parrots (Psittaciformes), also known as psittacines (/ˈsɪtəsaɪnz/), are birds with a strong curved beak, upright stance, and clawed feet. They are classified in four families that contain roughly 410 species in 101 genera, found mostly in tropical and subtropical regions. </i></p>
+            <video width="700" controls muted autoplay loop>
+                <source src="../Day1WebTechnologies/videos/parrot_vid2.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <h3>THE 4 FAMILIES OF PARROTS </h3>
+            <p>Psittacidae: True parrots</p>
+            <p>Cacatuidae: Cockatoos</p>
+            <p>Strigopidae: New Zealand parrots (including the Kakapo)</p>
+            <p>Nestoridae: New Zealand parrots (including Kea and Kaka)</p>
+
+        </div>
+
+<br>
+<!--Adding an image-->
+
+    <div id="parrot-image">
+        <h1>Image of a Parrot</h1>
+        <img src="../Day1WebTechnologies/images/parrot2.jpg" alt="Image of a Parrot" width="400px">
+    </div>
+
+<br>
+    <div id="facts-about-parrots">
+        <h2>Information about Parrots</h2>
+
+                <ol>
+                    <li>Intelligence:</li>
+                        <ol>Parrots are among the most intelligent birds</ol>
+                        <ol>They can mimic human speech and solve complex problems</ol>
+                    <br>
+                    <li>Diet:</li>
+                        <ol>Parrots mostly eat seeds, nuts, fruits, and nectar.</ol>
+                        <ol>Some species also eat insects and small animals.</ol>
+                    <br>
+                    <li>Lifespan:</li>
+                        <ol>Larger parrots can live over 50 years</ol>
+                        <ol>The Kakapo is the longest-living parrot, with some reaching over 90 years.</ol>
+                    <br>
+                    <li>Flight and Movement:</li>
+                        <ol>Most parrots are strong fliers.</ol>
+                        <ol>Kakapos, however, are flightless.</ol>
+
+                </ol>
+
+    </div>
+
+
+<br>
+<!--Adding an image to my HTML-->
+    <div id="Animals I like">
+        <h1>Parrots</h1>
+        <img src="../Day1WebTechnologies/images/parrot1.jpg" alt="Image of a Parrot" width="200px">
+        <img src="https://th.bing.com/th/id/R.012ec641997cb34b312e4137aaefbfda?rik=GjIKxl9SPKVV%2bQ&pid=ImgRaw&r=0" width="200px" height="150px">
+    </div>
+
+<br>
+<!--Adding a video-->
+    <div id="Here is a video">
+        <h2>Here is a video of a Parrot for you to see</h2>
+        <video width="700" controls muted autoplay loop>
+            <source src="../Day1WebTechnologies/videos/46026-447087782_small.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+    </div>
+<br>
+<br>
+    <div id="Table of parrots and their colours">
+        <h2 align="center">Table of Different Parrots and Colours of their feathers</h2>
+        <table border="1" cellpadding="10" cellspacing="0" align="center">
+            <tr>
+                <th>Parrot Name</th>
+                <th>Primary Colours</th>
+            </tr>
+            <tr>
+                <td>African Grey Parrot</td>
+                <td>Grey with red tail</td>
+            </tr>
+            <tr>
+                <td>Macaw</td>
+                <td>Bright red, blue, and yellow</td>
+            </tr>
+            <tr>
+                <td>Budgerigar</td>
+                <td>Green, yellow, blue, and white</td>
+            </tr>
+            <tr>
+                <td>Cockatoo</td>
+                <td>White, pink, and yellow (with a crest)</td>
+            </tr>
+            <tr>
+                <td>Eclectus Parrot</td>
+                <td>Males: Green, Females: Red and blue</td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="submit-parrot">
+        <h2>Submit a Parrot</h2>
+
+        <form action="#" method="POST">
+
+<!-- Parrot Name -->
+            <label for="name">Parrot Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+<!-- Colours -->
+            <label for="colours">Main Colours:</label>
+            <input type="text" id="colours" name="colours" required><br><br>
+
+<!-- Region -->
+            <label for="region">Region:</label>
+            <select id="region" name="region">
+                <option value="Please select value">Please select value</option>
+                <option value="africa">Africa</option>
+                <option value="australia">Australia</option>
+                <option value="asia">Asia</option>
+                <option value="south_america">South America</option>
+                <option value="north_america">North America</option>
+                <option value="europe">Europe</option>
+            </select><br><br>
+
+<!-- Size (Radio Buttons) -->
+            <label>Size:</label><br>
+            <input type="radio" id="small" name="size" value="small">
+            <label for="small">Small</label>
+            <input type="radio" id="medium" name="size" value="medium">
+            <label for="medium">Medium</label>
+            <input type="radio" id="large" name="size" value="large">
+            <label for="large">Large</label><br><br>
+
+<!-- Diet (Check Buttons) -->
+            <label>Diet:</label><br>
+            <input type="checkbox" id="seeds" name="diet" value="seeds">
+            <label for="seeds">Seeds</label>
+            <input type="checkbox" id="fruits" name="diet" value="fruits">
+            <label for="fruits">Fruits</label>
+            <input type="checkbox" id="nuts" name="diet" value="nuts">
+            <label for="nuts">Nuts</label>
+            <input type="checkbox" id="veggies" name="diet" value="veggies">
+            <label for="veggies">Vegetables</label><br><br>
+
+<!-- Description (Textarea) -->
+    <label for="description">Description:</label><br>
+    <textarea id="description" name="description" rows="4" cols="40" placeholder="Write something about this parrot..."></textarea><br><br>
+
+<!-- Upload Photo -->
+            <label for="photo">Upload Parrot Photo (if applicable):</label>
+            <input type="file" id="photo" name="photo" accept="image/*"><br><br>
+
+<!-- Submit Button -->
+            <input type="submit" value="Submit">
+        </form>
+
+        </div>
+
+<!--Dark Mode and Light Mode-->
+<label for="darkMode">Dark Mode</label>
+<input type="checkbox" id="darkMode" onchange="toggleMode()">
+<label for="lightMode">Light Mode</label>
+<input type="checkbox" id="lightMode" onchange="toggleMode()">
+
+</body>
+</html>
